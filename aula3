@@ -1,0 +1,9 @@
+1)
+def tipo(x):
+    print(type(x)
+    print(x)
+tipo(x) #coloque o valor de x, não precisa ser numérico
+        #se for frase, tem que colocar entre aspas simples
+
+
+2)
