@@ -36,3 +36,20 @@ for i in [0,1,2,3]:
 jn.mainloop ()
 
 INCOMPLETO
+import turtle
+a = str(input('Digite a cor de fundo desejada: '))
+jn = turtle.Screen()
+jn.bgcolor(a)
+
+b = str(input('Se desejar pode mudar a cor da tratura também: '))
+teca = turtle.Turtle()
+teca.color(b)
+
+c = int(input('Se quiser pode mudar também a largura da caneta: '))
+teca.pensize(c)
+
+teca = turtle.shape("turtle")
+for i in [0,1,2,3]:
+        teca.forward(100) 
+        teca.left(90) 
+jn.mainloop ()
