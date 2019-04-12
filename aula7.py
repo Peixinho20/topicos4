@@ -12,7 +12,6 @@ def draw_bar(t, height): #faz a tartaruga t desenhar uma barra de altura.
     t.end_fill()#finaliza o rastro da tartaruga, pq os () ficam vazios?
     t.forward(10) #define a distancia entre cada torre
 
-
 wn = turtle.Screen() #inicia o programa turtle
 wn.bgcolor("lightgreen") #o fundo da pagina  fica verde claro
 
